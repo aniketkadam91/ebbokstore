@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YaySMTP - Simple WP SMTP Mail\n"
+"POT-Creation-Date: 2022-05-12 14:20+0700\n"
+"PO-Revision-Date: 2022-05-12 14:23+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: yay-smtp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/Controller/ZohoServiceVendController.php:134
+msgid "Have Client ID and Client Secret both valid and saved."
+msgstr "Client-ID und geheimer Clientschlüssel sind gültig und gespeichert."
+
+#: includes/Controller/ZohoServiceVendController.php:166
+msgid "No code received"
+msgstr "Kein Code erhalten"
+
+#: includes/Dashboard.php:27
+msgid "YaySMTP Stats"
+msgstr "YaySMTP-Statistiken"
+
+#: includes/Functions.php:80
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: includes/Functions.php:82
+msgid "Settings Failed."
+msgstr "Einstellungen fehlgeschlagen."
+
+#: includes/Functions.php:104
+msgid "Save Addition Settings Successful."
+msgstr "Zusätzliche Einstellungen erfolgreich speichern."
+
+#: includes/Functions.php:107
+msgid "Save Addition Settings Failed."
+msgstr "Fehler beim Speichern von Additionseinstellungen."
+
+#: includes/Functions.php:122 includes/Functions.php:167
+msgid "Invalid email format."
+msgstr "Ungültiges e-Mail-Format."
+
+#: includes/Functions.php:126
+msgid "YaySMTP - Test email was sent successfully!"
+msgstr "YaySMTP - Test-E-Mail wurde erfolgreich gesendet!"
+
+#: includes/Functions.php:128 includes/Functions.php:173
+msgid ""
+"Yay!<br><br>Your test email was sent successfully!<br>Thanks for using <a "
+"href=\"https://yaycommerce.com/yaysmtp-wordpress-mail-smtp/\">YaySMTP</"
+"a><br><br>Feel free to check out our plugins that enhance your WooCommerce "
+"<a href=\"https://wordpress.org/plugins/yaymail/\">transactional emails</a> "
+"and <a href=\"https://yaycommerce.com/yaycurrency-woocommerce-multi-currency-"
+"switcher/\">multi-currency</a>.<br><br>Don’t let distance define your "
+"business.<br><br>Cheers,<br>YayCommerce"
+msgstr ""
+"Yay!<br><br>Ihre Test-E-Mail wurde erfolgreich gesendet!<br>Vielen Dank, "
+"dass Sie <a href=\"https://yaycommerce.com/yaysmtp-wordpress-mail-smtp/"
+"\">YaySMTP</a> verwenden<br><br>Fühlen Sie sich frei, unsere Plugins zu "
+"überprüfen, die Ihre <a href=\"https://wordpress.org/plugins/yaymail/"
+"\">WooCommerce-Transaktions-E-Mails</a> und <a href=\"https://yaycommerce."
+"com/yaycurrency-woocommerce-multi-currency-switcher/\">Multi-Währungen</a> "
+"verbessern.<br><br>Lassen Sie nicht zu, dass Distanz Ihr Geschäft definiert."
+"<br><br>Prost<br>YayCommerce"
+
+#: includes/Functions.php:134 includes/Functions.php:180
+msgid "Email has been sent."
+msgstr "Die E-Mail wurde gesendet."
+
+#: includes/Functions.php:144
+msgid "Email sent failed."
+msgstr "Gesendete E-Mail fehlgeschlagen."
+
+#: includes/Functions.php:148 includes/Functions.php:189
+msgid "Email Address is not empty."
+msgstr "Die E-Mail-Adresse ist nicht leer."
+
+#: includes/Functions.php:150 includes/Functions.php:192
+msgid "Error send mail."
+msgstr "Fehler beim Senden von E-Mails."
+
+#: includes/Functions.php:171
+msgid "YaySMTP - Fallback test email was sent successfully!"
+msgstr "YaySMTP - Fallback-Test-E-Mail wurde erfolgreich gesendet!"
+
+#: includes/Functions.php:183
+msgid ""
+"Email sent failed. This error may be caused by: Incorrect From email, SMTP "
+"Host, Post, Username or Password."
+msgstr ""
+"Gesendete E-Mail fehlgeschlagen. Dieser Fehler kann verursacht werden durch: "
+"Falsch Von E-Mail, SMTP-Host, Post, Benutzername oder Passwort."
+
+#: includes/Functions.php:346 includes/Functions.php:576
+msgid "Successful."
+msgstr "Erfolgreich."
+
+#: includes/Functions.php:349
+msgid "Failed."
+msgstr "Fehlgeschlagen."
+
+#: includes/Functions.php:366
+msgid "Save Settings Successful."
+msgstr "Einstellungen erfolgreich speichern."
+
+#: includes/Functions.php:369
+msgid "Save Settings Failed."
+msgstr "Speichern der Einstellungen fehlgeschlagen."
+
+#: includes/Functions.php:386 includes/Functions.php:404
+#: includes/Functions.php:422 includes/Functions.php:463
+msgid "No email log id found."
+msgstr "Keine E-Mail-Protokoll-ID gefunden."
+
+#: includes/Functions.php:397
+msgid "Something wrong, Email logs not deleted."
+msgstr "Etwas stimmt nicht, E-Mail-Protokolle werden nicht gelöscht."
+
+#: includes/Functions.php:401
+msgid "Delete successful."
+msgstr "Löschen erfolgreich."
+
+#: includes/Functions.php:455
+msgid "Get email log #"
+msgstr "E-Mail-Protokoll abrufen #"
+
+#: includes/Functions.php:459
+msgid "No email log found."
+msgstr "Kein E-Mail-Protokoll gefunden."
+
+#: includes/Functions.php:555
+msgid "Email Sent"
+msgstr "Email gesendet"
+
+#: includes/Functions.php:562
+msgid "Email Fail"
+msgstr "E-Mail fehlgeschlagen"
+
+#: includes/Helper/Utils.php:422
+msgid "WP Mail SMTP"
+msgstr "WP E-Mail SMTP"
+
+#: includes/Helper/Utils.php:430
+msgid "SMTP Mailer"
+msgstr "SMTP"
+
+#: includes/Helper/Utils.php:438
+msgid "WP SMTP"
+msgstr "WP SMTP"
+
+#: includes/Helper/Utils.php:446
+msgid "Mail Bank"
+msgstr "Postbank"
+
+#: includes/Helper/Utils.php:454
+msgid "Post SMTP Mailer"
+msgstr "SMTP-Mailer posten"
+
+#: includes/ImportSettingsOtherPlugins.php:31
+msgid "YaySMTP Setting"
+msgstr "YaySMTP-Einstellung"
+
+#: includes/ImportSettingsOtherPlugins.php:31 includes/Page/Settings.php:35
+#: includes/Page/Settings.php:45
+msgid "YaySMTP"
+msgstr "YaySMTP"
+
+#: includes/ImportSettingsOtherPlugins.php:66
+#: includes/Views/yaysmtp-settings-other.php:21
+msgid "Import SMTP settings to YaySMTP"
+msgstr "Importieren von SMTP-Einstellungen in YaySMTP"
+
+#: includes/ImportSettingsOtherPlugins.php:72
+msgid "Go to Import"
+msgstr "Gehe zu Import"
+
+#: includes/ImportSettingsOtherPlugins.php:73
+msgid "Got it"
+msgstr "Alles klar!"
+
+#: includes/ImportSettingsOtherPlugins.php:112
+msgid "Import SMTP Settings successful."
+msgstr "SMTP-Einstellungen erfolgreich importieren."
+
+#: includes/ImportSettingsOtherPlugins.php:115
+msgid "Please choose a SMTP plugin to import"
+msgstr "Bitte wählen Sie ein SMTP-Plugin zum Importieren"
+
+#: includes/Page/Settings.php:34
+msgid "YaySMTP Manager"
+msgstr "YaySMTP-Manager"
+
+#: includes/Page/Settings.php:45
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/Schedule.php:70
+msgid "Once Monthly"
+msgstr "Einmal monatlich"
+
+#: includes/Schedule.php:82
+msgid "YaySMTP - Mail Weekly Report"
+msgstr "YaySMTP - Mail Wochenbericht"
+
+#: includes/Schedule.php:93
+msgid "YaySMTP - Mail Monthly Report"
+msgstr "YaySMTP - Mail Monatsbericht"
+
+#: includes/Views/additional-setting.php:73
+msgid "Additional Settings"
+msgstr "Zusätzliche Einstellungen"
+
+#: includes/Views/additional-setting.php:80
+msgid "Email Notifications"
+msgstr "E-Mail Benachrichtigungen"
+
+#: includes/Views/additional-setting.php:86
+msgid "Receive SMTP email delivery summary via email."
+msgstr ""
+"Erhalten Sie eine Zusammenfassung der SMTP-E-Mail-Zustellung per E-Mail."
+
+#: includes/Views/additional-setting.php:93
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: includes/Views/additional-setting.php:97
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: includes/Views/additional-setting.php:103
+msgid "Fallback Carrier"
+msgstr "Fallback-Träger"
+
+#: includes/Views/additional-setting.php:109
+msgid ""
+"Configure a secondary email service provider to send WordPress emails. "
+"Automatically used after the first mailer has 3 failed attempts."
+msgstr ""
+"Konfigurieren Sie einen sekundären E-Mail-Dienstanbieter zum Senden von "
+"WordPress-E-Mails. Wird automatisch verwendet, nachdem der erste Mailer 3 "
+"fehlgeschlagene Versuche hat."
+
+#: includes/Views/additional-setting.php:117
+msgid "Fallback PHPMailer Settings"
+msgstr "Fallback PHPMailer Einstellungen"
+
+#: includes/Views/additional-setting.php:149 includes/Views/yay-smtp.php:147
+msgid ""
+"Always send emails with the above From Email address, overriding other "
+"plugins settings."
+msgstr ""
+"Senden Sie E-Mails immer mit der oben genannten Von-E-Mail-Adresse und "
+"überschreiben Sie andere Plugin-Einstellungen."
+
+#: includes/Views/additional-setting.php:172 includes/Views/yay-smtp.php:186
+msgid ""
+"Always send emails with the above From Name, overriding other plugins "
+"settings."
+msgstr ""
+"Senden Sie E-Mails immer mit dem oben genannten Von-Namen und überschreiben "
+"Sie andere Plugin-Einstellungen."
+
+#: includes/Views/additional-setting.php:268
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/Views/template-part/amazonses-tpl.php:12
+msgid "US East (N. Virginia)"
+msgstr "USA Ost (Nord-Virginia)"
+
+#: includes/Views/template-part/amazonses-tpl.php:13
+msgid "US East (Ohio)"
+msgstr "US Ost (Ohio)"
+
+#: includes/Views/template-part/amazonses-tpl.php:14
+msgid "US West (Oregon)"
+msgstr "US West (Oregon)"
+
+#: includes/Views/template-part/amazonses-tpl.php:15
+msgid "Cape Town South Africa"
+msgstr "Kapstadt Südafrika"
+
+#: includes/Views/template-part/amazonses-tpl.php:16
+msgid "Canada (Central)"
+msgstr "Kanada (Zentral)"
+
+#: includes/Views/template-part/amazonses-tpl.php:17
+msgid "EU (Ireland)"
+msgstr "EU (Irland)"
+
+#: includes/Views/template-part/amazonses-tpl.php:18
+msgid "EU (London)"
+msgstr "EU (London)"
+
+#: includes/Views/template-part/amazonses-tpl.php:19
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+#: includes/Views/template-part/amazonses-tpl.php:20
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asien Pazifik (Mumbai)"
+
+#: includes/Views/template-part/amazonses-tpl.php:21
+msgid "Asia Pacific (Seoul)"
+msgstr "Asien Pazifik (Seoul)"
+
+#: includes/Views/template-part/amazonses-tpl.php:22
+msgid "Asia Pacific (Singapore)"
+msgstr "Asien Pazifik (Singapore)"
+
+#: includes/Views/template-part/amazonses-tpl.php:23
+msgid "Asia Pacific (Sydney)"
+msgstr "Asien Pazifik (Sydney)"
+
+#: includes/Views/template-part/amazonses-tpl.php:24
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asien Pazifik (Tokyo)"
+
+#: includes/Views/template-part/amazonses-tpl.php:25
+msgid "South America (São Paulo)"
+msgstr "Südamerika (São Paulo)"
+
+#: includes/Views/template-part/debug-card.php:23
+msgid "Email Delivery Issue"
+msgstr "Problem mit der E-Mail-Zustellung"
+
+#: includes/Views/template-part/debug-card.php:29
+msgid ""
+"YaySMTP noticed this error (yikes!) while trying to send the most recent "
+"emails:"
+msgstr ""
+"YaySMTP bemerkte diesen Fehler (yikes!) beim Versuch, die neuesten E-Mails "
+"zu senden:"
+
+#: includes/Views/template-part/debug-card.php:35
+msgid ""
+"Please fix it and send a test email afterwards. <a href=\"https://"
+"yaycommerce.com/support/\" target=\"_blank\">Contact us</a> if you need any "
+"helps."
+msgstr ""
+"Bitte beheben Sie das Problem und senden Sie anschließend eine Test-E-Mail. "
+"<a href=\"https://yaycommerce.com/support/\" target=\"_blank\">Kontaktieren "
+"Sie uns</a> , wenn Sie Hilfe benötigen."
+
+#: includes/Views/template-part/gmail-tpl.php:101
+#: includes/Views/template-part/outlook-ms-tpl.php:109
+msgid "Confirm authorization"
+msgstr "Autorisierung bestätigen"
+
+#: includes/Views/template-part/gmail-tpl.php:105
+#: includes/Views/template-part/outlook-ms-tpl.php:113
+#: includes/Views/template-part/zoho-tpl.php:113
+msgid "Click the button to confirm authorization"
+msgstr "Klicken Sie auf die Schaltfläche, um die Autorisierung zu bestätigen"
+
+#: includes/Views/template-part/gmail-tpl.php:111
+#: includes/Views/template-part/outlook-ms-tpl.php:134
+msgid "Remove Authorization ("
+msgstr "Autorisierung aufheben ("
+
+#: includes/Views/template-part/gmail-tpl.php:113
+#: includes/Views/template-part/outlook-ms-tpl.php:136
+#: includes/Views/template-part/zoho-tpl.php:118
+msgid "Remove Authorization"
+msgstr "Autorisierung aufheben"
+
+#: includes/Views/template-part/gmail-tpl.php:120
+msgid ""
+"You will be able to use another Google account after removing this connection"
+msgstr ""
+"Sie können ein anderes Google-Konto verwenden, nachdem Sie diese Verbindung "
+"entfernt haben"
+
+#: includes/Views/template-part/gmail-tpl.php:126
+#: includes/Views/template-part/outlook-ms-tpl.php:149
+msgid "Put your Client ID and Client Secret, then save them."
+msgstr ""
+"Geben Sie Ihre Client-ID und den geheimen Clientschlüssel ein, und speichern "
+"Sie sie."
+
+#: includes/Views/template-part/mailgun-tpl.php:72
+msgid ""
+"Choose which region (North America or Europe) you want your message data to "
+"be processed by. More details at https://mailgun.com/regions/"
+msgstr ""
+"Wählen Sie aus, in welcher Region (Nordamerika oder Europa) Ihre "
+"Nachrichtendaten verarbeitet werden sollen. Mehr Details unter https://"
+"mailgun.com/regions/"
+
+#: includes/Views/template-part/outlook-ms-tpl.php:128
+msgid "Your Client ID or Client Secret are not correct"
+msgstr "Ihre Client-ID oder Ihr geheimer Clientschlüssel sind nicht korrekt"
+
+#: includes/Views/template-part/outlook-ms-tpl.php:143
+msgid ""
+"You will be able to use another Microsoft account after removing this "
+"connection"
+msgstr ""
+"Sie können ein anderes Microsoft-Konto verwenden, nachdem Sie diese "
+"Verbindung entfernt haben"
+
+#: includes/Views/template-part/send-test-mail-fallback.php:15
+msgid "Send Email"
+msgstr "E-Mail senden"
+
+#: includes/Views/template-part/send-test-mail-fallback.php:20
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: includes/Views/template-part/send-test-mail-fallback.php:29
+msgid ""
+"Before sending test email, please make sure to set up fallback properly and "
+"save changes."
+msgstr ""
+"Bevor Sie eine Test-E-Mail senden, stellen Sie bitte sicher, dass Sie das "
+"Fallback ordnungsgemäß einrichten und die Änderungen speichern."
+
+#: includes/Views/template-part/zoho-tpl.php:95
+msgid "Authorization Connect"
+msgstr "Autorisierung Connect"
+
+#: includes/Views/yaysmtp-settings-other.php:10
+msgid ""
+"We have found previous SMTP settings from other plugin on your site. Please "
+"choose one plugin's settings that you want to import to YaySMTP."
+msgstr ""
+"Wir haben frühere SMTP-Einstellungen von anderen Plugins auf Ihrer Website "
+"gefunden. Bitte wählen Sie die Einstellungen eines Plugins aus, das Sie in "
+"YaySMTP importieren möchten."
+
+#: includes/Views/yaysmtp-settings-other.php:12
+msgid ""
+"We have found no previous SMTP settings from other plugins on your site."
+msgstr ""
+"Wir haben keine früheren SMTP-Einstellungen von anderen Plugins auf Ihrer "
+"Website gefunden."
+
+#: includes/Views/yaysmtp-settings-other.php:43
+msgid "Import Settings"
+msgstr "Einstellungen importieren"
+
+#. Plugin Name of the plugin/theme
+msgid "YaySMTP - Simple WP SMTP Mail"
+msgstr "YaySMTP - Einfache WP SMTP Mail"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yaycommerce.com/yaysmtp"
+msgstr "https://yaycommerce.com/yaysmtp"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin helps you send emails from your WordPress website via your "
+"preferred SMTP server."
+msgstr ""
+"Mit diesem Plugin können Sie E-Mails von Ihrer WordPress-Website über Ihren "
+"bevorzugten SMTP-Server senden."
+
+#. Author of the plugin/theme
+msgid "YayCommerce"
+msgstr "YayCommerce"
+
+#. Author URI of the plugin/theme
+msgid "https://yaycommerce.com"
+msgstr "https://yaycommerce.com"

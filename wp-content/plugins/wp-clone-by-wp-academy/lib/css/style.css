@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+#wrapper {
+
+}
+
+#MainView {
+    margin: 13px;
+    padding: 10px;
+    max-width: 60%;
+    float: left;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+#sidebar {
+	float: left;
+}
+
+#MainView h2 {
+	padding-bottom: 10px;
+}
+
+#sidebar ul {
+	max-width: 300px;
+	padding: 10px 10px 10px 30px;
+	margin-left: 5px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	list-style: disc;
+	-moz-box-shadow: 5px 5px 15px #aaa;
+	-webkit-box-shadow: 5px 5px 15px #aaa;
+	box-shadow: 5px 5px 15px #aaa;
+}
+
+#sidebar ul h2 {
+	border-bottom: 5px solid #ccc;
+	padding-bottom: 10px;
+	text-shadow: 5px 5px 10px #888;
+}
+
+#sidebar ul h3 {
+	border-bottom: 2px solid #ccc;
+	padding: 10px 0 5px 0;
+}
+
+#backupForm #create-backup-option {
+    margin-bottom: 5px;
+}
+
+#RestoreOptions, #file_directory {
+    display: none;
+}
+
+.width-60 {
+    max-width: 60%;
+}
+div.info {
+    padding: 15px;
+    margin: 30px 0;
+    margin-right: 25px;
+    background: #e1e1ea;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+div.try {
+    display: block;
+}
+
+table.restore-backup-options {
+    padding: 0 5px;
+    border-collapse: collapse;
+}
+
+table.restore-backup-options td, table.restore-backup-options th {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.error {
+    border: solid 1px #c00;
+    padding: 5px;
+    background-color: #FFEBE8;
+    text-align: center;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 15px #aaa;
+    -webkit-box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+.deleted {
+    background: #00cc99;
+    text-align: center;
+}
+
+.delete-error {
+    text-align: center;
+    background: #fff0b3;
+}
+
+a#close-thickbox {    
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+div#search-n-replace {
+    display: none;
+    position: relative;
+}
+
+div#search-n-replace-info{
+    min-height: 20px;
+}
+
+a.copy-button {
+}
+
+.btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn {
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+	margin: 20px 0;
+	padding: 15px 30px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+input[type="submit"].btn-primary {
+    background-color: #006DCC;
+    background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088CC), to(#0044CC));
+    background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+    background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+input[type="submit"].btn-primary:hover, input[type="submit"].btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-color: #0044CC;
+    color: #EEEEEE;
+}
+.btn-primary:active, .btn-primary.active {
+}
+
+input[type="submit"].btn-warning {
+    background-color: #FAA732;
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FBB450), to(#F89406));
+    background-image: -webkit-linear-gradient(top, #FBB450, #F89406);
+    background-image: -o-linear-gradient(top, #FBB450, #F89406);
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+input[type="submit"].btn-warning:hover, input[type="submit"].btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+    background-color: #F89406;
+    color: #EEEEEE;
+}
+
+textarea {
+    width: 100%;
+    padding: 0px
+}
+
+input.Url {
+    width: 80%;
+    padding: 0px
+}
+
+.btn-warning:active, .btn-warning.active {
+}
+
+.wpclone_notice {
+    max-width: 500px;
+    padding: 5px;
+    margin: 25px 0 0 0;
+    border-radius: 5px;
+}
+
+.plugin-large-notice{
+    overflow: hidden;;
+}
+
+/** Banner CSS **/
+.banner-1{
+    min-height: 744px;
+    width: auto;
+    background-size: cover;
+    padding-top: 48px;
+    padding-left: 61px;
+    padding-right: 85px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.banner-1 .heading{
+    color: #0f9087;
+    font-size: 26px;
+}
+
+.banner-1 .nutshell-list{
+    color: #3A3A3A;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.banner-1 .banner-footer{
+    margin-top: 62px;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.banner-1 .button1{
+    /*-webkit-font-smoothing: antialiased;
+    background-color: #0f9087;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    user-select: none;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-out;
+    border-radius: 15px;*/
+
+}
+.banner-1 .button2{
+    -webkit-font-smoothing: antialiased;
+    background-color: #0f9087;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    user-select: none;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-out;
+    border-radius: 15px;
+}
+
+.banner-1 .close-icon {
+    float: right;
+    margin-top: -30px;
+    margin-right: -65px;
+    cursor: pointer;
+}
+
+.plugin-large-notice .banner-1-collapsed{
+    min-height: 63px;
+    width: auto;
+    /*padding-top: 48px;
+    padding-left: 61px;
+    padding-right: 85px;*/
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.plugin-large-notice .banner-1-collapsed p.left-text {
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+    float: left;
+}
+
+.plugin-large-notice .banner-1-collapsed p.left-text a {
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+.plugin-large-notice .banner-1-collapsed p.remove-for-good {
+    float: right;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 30px;
+    line-height: 35px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,125 @@
+2024-01-31T06:14:44+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, DateTime given in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php:883
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(883): preg_match('/^(\\d{4})$/', Object(DateTime), NULL)
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(740): WP_Date_Query->build_mysql_datetime(Object(DateTime), false)
+#2 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(636): WP_Date_Query->get_sql_for_clause(Array, Array)
+#3 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(586): WP_Date_Query->get_sql_for_query(Array)
+#4 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(555): WP_Date_Query->get_sql_clauses()
+#5 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(2107): WP_Date_Query->get_sql()
+#6 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#7 C:\xampp\htdocs\bookstore\wp-includes\post.php(2452): WP_Query->query(Array)
+#8 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(439): get_posts(Array)
+#9 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(457): daily_sales_analysis()
+#10 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php on line 883
+
+2024-01-31T06:53:27+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(444): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(474): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T06:53:44+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(444): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(474): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T06:55:17+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(446): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(475): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T06:55:21+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(446): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(475): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T06:59:47+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(452): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(482): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T11:56:56+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 489
+
+2024-01-31T11:57:08+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(434): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(485): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+
+2024-01-31T11:57:18+00:00 CRITICAL Uncaught Error: Call to a member function get_orders() on null in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php:2740
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->query(Array)
+#1 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order-query.php(87): WC_Data_Store->__call('query', Array)
+#2 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-order-functions.php(69): WC_Order_Query->get_orders()
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(434): wc_get_orders(Array)
+#4 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(485): daily_sales_analysis()
+#5 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php on line 2740
+

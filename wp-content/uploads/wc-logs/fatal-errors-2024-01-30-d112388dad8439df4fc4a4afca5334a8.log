@@ -1,0 +1,78 @@
+2024-01-30T08:19:31+00:00 CRITICAL Unclosed '{' on line 360 in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 431
+
+2024-01-30T08:19:32+00:00 CRITICAL Unclosed '{' on line 360 in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 431
+
+2024-01-30T08:50:21+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, DateTime given in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php:883
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(883): preg_match('/^(\\d{4})$/', Object(DateTime), NULL)
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(740): WP_Date_Query->build_mysql_datetime(Object(DateTime), false)
+#2 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(636): WP_Date_Query->get_sql_for_clause(Array, Array)
+#3 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(586): WP_Date_Query->get_sql_for_query(Array)
+#4 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(555): WP_Date_Query->get_sql_clauses()
+#5 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(2107): WP_Date_Query->get_sql()
+#6 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#7 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#8 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(425): WP_Query->__construct(Array)
+#9 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): custom_process_order(58)
+#10 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(82): do_action('woocommerce_tha...', 58)
+#13 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(333): wc_get_template('checkout/thanky...', Array)
+#15 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(58)
+#16 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#17 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#18 C:\xampp\htdocs\bookstore\wp-includes\shortcodes.php(433): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#19 [internal function]: do_shortcode_tag(Array)
+#20 C:\xampp\htdocs\bookstore\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#21 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): do_shortcode('[woocommerce_ch...')
+#22 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#23 C:\xampp\htdocs\bookstore\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:woocomm...')
+#24 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\template-parts\content-page.php(17): the_content()
+#25 C:\xampp\htdocs\bookstore\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\bookstore\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#27 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#28 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\page.php(27): get_template_part('template-parts/...')
+#29 C:\xampp\htdocs\bookstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#30 C:\xampp\htdocs\bookstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#31 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#32 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php on line 883
+
+2024-01-30T08:51:03+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, DateTime given in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php:883
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(883): preg_match('/^(\\d{4})$/', Object(DateTime), NULL)
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(740): WP_Date_Query->build_mysql_datetime(Object(DateTime), false)
+#2 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(636): WP_Date_Query->get_sql_for_clause(Array, Array)
+#3 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(586): WP_Date_Query->get_sql_for_query(Array)
+#4 C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php(555): WP_Date_Query->get_sql_clauses()
+#5 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(2107): WP_Date_Query->get_sql()
+#6 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#7 C:\xampp\htdocs\bookstore\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#8 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(425): WP_Query->__construct(Array)
+#9 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): custom_process_order(58)
+#10 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(82): do_action('woocommerce_tha...', 58)
+#13 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(333): wc_get_template('checkout/thanky...', Array)
+#15 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(58)
+#16 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#17 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#18 C:\xampp\htdocs\bookstore\wp-includes\shortcodes.php(433): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#19 [internal function]: do_shortcode_tag(Array)
+#20 C:\xampp\htdocs\bookstore\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#21 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): do_shortcode('[woocommerce_ch...')
+#22 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#23 C:\xampp\htdocs\bookstore\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:woocomm...')
+#24 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\template-parts\content-page.php(17): the_content()
+#25 C:\xampp\htdocs\bookstore\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\bookstore\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#27 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#28 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\page.php(27): get_template_part('template-parts/...')
+#29 C:\xampp\htdocs\bookstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#30 C:\xampp\htdocs\bookstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#31 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#32 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-includes\class-wp-date-query.php on line 883
+

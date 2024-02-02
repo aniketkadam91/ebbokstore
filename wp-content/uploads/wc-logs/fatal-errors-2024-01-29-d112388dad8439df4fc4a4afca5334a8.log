@@ -1,0 +1,505 @@
+2024-01-29T13:16:22+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: /path/to/firebase_credentials.json can not be read: SplFileObject::__construct(/path/to/firebase_credentials.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('/path/to/fireba...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('/path/to/fireba...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('/path/to/fireba...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: /path/to/firebase_credentials.json can not be read: SplFileObject::__construct(/path/to/firebase_credentials.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('/path/to/fireba...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('/path/to/fireba...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:18:18+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:18:22+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(8): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:20:19+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:20:23+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:22:19+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:22:24+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:23:49+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:23:50+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook-6bc3d-fir...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook-6bc3d-fir...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:26:44+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: ebook.json can not be read: SplFileObject::__construct(ebook.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('ebook.json')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook.json')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook.json')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: ebook.json can not be read: SplFileObject::__construct(ebook.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('ebook.json')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('ebook.json')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:29:53+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: /ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('/ebook-6bc3d-fi...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('/ebook-6bc3d-fi...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('/ebook-6bc3d-fi...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: /ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('/ebook-6bc3d-fi...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('/ebook-6bc3d-fi...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:31:58+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(9): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(354): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:40:05+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(355): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(355): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:43:14+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(355): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/vw-book-store/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php(355): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T13:43:40+00:00 CRITICAL Uncaught Kreait\Firebase\Exception\InvalidArgumentException: C:\xampp\htdocs\bookstore/wp-content/themes/twentytwentyfour/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/twentytwentyfour/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:126
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php(74): Kreait\Firebase\ServiceAccount::fromJsonFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\functions.php(210): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Kreait\Firebase\Exception\InvalidArgumentException: Invalid service account: C:\xampp\htdocs\bookstore/wp-content/themes/twentytwentyfour/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json can not be read: SplFileObject::__construct(C:\xampp\htdocs\bookstore/wp-content/themes/twentytwentyfour/config/ebook-6bc3d-firebase-adminsdk-id4oa-6d8bdc81c7.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php:76
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\Factory.php(128): Kreait\Firebase\ServiceAccount::fromValue('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\config\dbconn.php(13): Kreait\Firebase\Factory->withServiceAccount('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\functions.php(210): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bookstore\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bookstore\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bookstore\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\bookstore\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bookstore\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\twentytwentyfour\vendor\kreait\firebase-php\src\Firebase\ServiceAccount.php on line 76
+
+2024-01-29T14:47:15+00:00 CRITICAL Uncaught Error: Call to a member function getReference() on null in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php:387
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): custom_process_order(40, Object(WC_Order))
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php(2413): do_action('woocommerce_new...', 40, Object(WC_Order))
+#4 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->create(Object(WC_Order))
+#5 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1850): WC_Order->save()
+#8 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1774): WC_Abstract_Order->update_taxes()
+#9 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1922): WC_Abstract_Order->calculate_taxes()
+#10 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(115): WC_Abstract_Order->calculate_totals()
+#11 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(50): Automattic\WooCommerce\StoreApi\Utilities\OrderController->update_order_from_cart(Object(WC_Order))
+#12 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(335): Automattic\WooCommerce\StoreApi\Utilities\OrderController->create_order_from_cart()
+#13 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(154): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->create_or_update_draft_order(Object(WP_REST_Request))
+#14 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\AbstractRoute.php(128): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_response(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(129): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#16 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#17 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#18 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(551): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#19 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(2918): rest_do_request(Object(WP_REST_Request))
+#20 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Domain\Services\Hydration.php(45): rest_preload_api_request(Array, '/wc/store/v1/ch...')
+#21 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(348): Automattic\WooCommerce\Blocks\Domain\Services\Hydration->get_rest_api_response_data('/wc/store/v1/ch...')
+#22 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(268): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->Automattic\WooCommerce\Blocks\Assets\{closure}()
+#23 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(393): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->execute_lazy_data()
+#24 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#25 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#26 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\bookstore\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#28 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): wp_print_footer_scripts('')
+#29 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#30 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#31 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(3068): do_action('wp_footer')
+#32 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\footer.php(81): wp_footer()
+#33 C:\xampp\htdocs\bookstore\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#34 C:\xampp\htdocs\bookstore\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#35 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#36 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\page.php(90): get_footer()
+#37 C:\xampp\htdocs\bookstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#38 C:\xampp\htdocs\bookstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#39 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#40 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 387
+
+2024-01-29T14:50:03+00:00 CRITICAL syntax error, unexpected token "use" in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 385
+
+2024-01-29T14:50:13+00:00 CRITICAL Uncaught Error: Class "Factory" not found in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php:387
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): custom_process_order(41, Object(WC_Order))
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php(2413): do_action('woocommerce_new...', 41, Object(WC_Order))
+#4 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->create(Object(WC_Order))
+#5 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1850): WC_Order->save()
+#8 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1774): WC_Abstract_Order->update_taxes()
+#9 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1922): WC_Abstract_Order->calculate_taxes()
+#10 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(115): WC_Abstract_Order->calculate_totals()
+#11 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(50): Automattic\WooCommerce\StoreApi\Utilities\OrderController->update_order_from_cart(Object(WC_Order))
+#12 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(335): Automattic\WooCommerce\StoreApi\Utilities\OrderController->create_order_from_cart()
+#13 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(154): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->create_or_update_draft_order(Object(WP_REST_Request))
+#14 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\AbstractRoute.php(128): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_response(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(129): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#16 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#17 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#18 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(551): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#19 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(2918): rest_do_request(Object(WP_REST_Request))
+#20 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Domain\Services\Hydration.php(45): rest_preload_api_request(Array, '/wc/store/v1/ch...')
+#21 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(348): Automattic\WooCommerce\Blocks\Domain\Services\Hydration->get_rest_api_response_data('/wc/store/v1/ch...')
+#22 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(268): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->Automattic\WooCommerce\Blocks\Assets\{closure}()
+#23 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(393): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->execute_lazy_data()
+#24 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#25 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#26 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\bookstore\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#28 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): wp_print_footer_scripts('')
+#29 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#30 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#31 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(3068): do_action('wp_footer')
+#32 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\footer.php(81): wp_footer()
+#33 C:\xampp\htdocs\bookstore\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#34 C:\xampp\htdocs\bookstore\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#35 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#36 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\page.php(90): get_footer()
+#37 C:\xampp\htdocs\bookstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#38 C:\xampp\htdocs\bookstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#39 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#40 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 387
+
+2024-01-29T14:50:48+00:00 CRITICAL syntax error, unexpected token "use" in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 386
+
+2024-01-29T14:51:25+00:00 CRITICAL Uncaught Error: Call to a member function createDatabase() on null in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php:392
+Stack trace:
+#0 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): custom_process_order(42, Object(WC_Order))
+#1 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\OrdersTableDataStore.php(2413): do_action('woocommerce_new...', 42, Object(WC_Order))
+#4 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->create(Object(WC_Order))
+#5 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1850): WC_Order->save()
+#8 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1774): WC_Abstract_Order->update_taxes()
+#9 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(1922): WC_Abstract_Order->calculate_taxes()
+#10 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(115): WC_Abstract_Order->calculate_totals()
+#11 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Utilities\OrderController.php(50): Automattic\WooCommerce\StoreApi\Utilities\OrderController->update_order_from_cart(Object(WC_Order))
+#12 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(335): Automattic\WooCommerce\StoreApi\Utilities\OrderController->create_order_from_cart()
+#13 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(154): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->create_or_update_draft_order(Object(WP_REST_Request))
+#14 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\AbstractRoute.php(128): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_response(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(129): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#16 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#17 C:\xampp\htdocs\bookstore\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#18 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(551): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#19 C:\xampp\htdocs\bookstore\wp-includes\rest-api.php(2918): rest_do_request(Object(WP_REST_Request))
+#20 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Domain\Services\Hydration.php(45): rest_preload_api_request(Array, '/wc/store/v1/ch...')
+#21 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(348): Automattic\WooCommerce\Blocks\Domain\Services\Hydration->get_rest_api_response_data('/wc/store/v1/ch...')
+#22 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(268): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->Automattic\WooCommerce\Blocks\Assets\{closure}()
+#23 C:\xampp\htdocs\bookstore\wp-content\plugins\woocommerce\src\Blocks\Assets\AssetDataRegistry.php(393): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->execute_lazy_data()
+#24 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#25 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#26 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\bookstore\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#28 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(324): wp_print_footer_scripts('')
+#29 C:\xampp\htdocs\bookstore\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#30 C:\xampp\htdocs\bookstore\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#31 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(3068): do_action('wp_footer')
+#32 C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\footer.php(81): wp_footer()
+#33 C:\xampp\htdocs\bookstore\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#34 C:\xampp\htdocs\bookstore\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#35 C:\xampp\htdocs\bookstore\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#36 C:\xampp\htdocs\bookstore\wp-content\themes\vw-book-store\page.php(90): get_footer()
+#37 C:\xampp\htdocs\bookstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#38 C:\xampp\htdocs\bookstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#39 C:\xampp\htdocs\bookstore\index.php(17): require('C:\\xampp\\htdocs...')
+#40 {main}
+  thrown in C:\xampp\htdocs\bookstore\wp-content\themes\ebook-store\functions.php on line 392
+
